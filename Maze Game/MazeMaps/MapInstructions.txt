@@ -1,0 +1,34 @@
+To make a map, type in a number at the very top of the text file.
+Letters correspond to different tiles.
+
+X-wall tiles
+O-path tiles
+E-end tile (step on it to win)
+A-spike tile (die if you step on it)
+C-coin tile
+H-hidden path tile(looks like a wall, but can move through it)
+Q-brown wall tiles (use a switch to open them)
+S-switch tile (step on to open brown wall tiles)
+
+
+/********************************
+Preconditions: 
+ENTER IN A NUMBER AT THE TOP LINE, BETWEEN 1 AND 28
+(otherwise it won't fit on screen)
+MUST HAVE EQUAL NUMBER OF LINES TO THE NUMBER AT TOP
+
+**************************************/
+
+An example for a map would be:
+
+5
+XXXXX
+XAOOX
+XOEOX
+XSOOX
+XXXXX
+
+This would generate a 5x5 map, surrounded by walls.
+End tile is at center, lava tile at top left, starting spot at bot left.
+
+Open the additional files attached to see examples.
