@@ -1,4 +1,4 @@
-# maze_game
+# Maze Game
 Maze game implemented using Java.
 Maps are generated using a text file. 
 
